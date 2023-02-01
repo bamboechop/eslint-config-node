@@ -1,0 +1,21 @@
+{
+  "name": "@bamboechop/eslint-config-nestjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "audit": "npx better-npm-audit audit -l high -r https://registry.npmjs.org/",
+    "reinstall": "rm -rf node_modules && rm package-lock.json -f && rm -rf dist && rm -rf lib && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "node -p \"require('./package.json').version\""
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import-quotes": "^0.0.1"
+  },
+  "author": "bamboechop <info@bamboechop.at>",
+  "license": "ISC"
+}
