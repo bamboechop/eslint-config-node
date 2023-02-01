@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "audit": "npx better-npm-audit audit -l high -r https://registry.npmjs.org/",
+    "audit": "npx --yes better-npm-audit audit -l high -r https://registry.npmjs.org/",
     "reinstall": "rm -rf node_modules && rm package-lock.json -f && rm -rf dist && rm -rf lib && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "node -p \"require('./package.json').version\""

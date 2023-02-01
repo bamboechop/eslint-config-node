@@ -10,7 +10,7 @@ npm install --save-dev @bamboechop/eslint-config-nestjs
 
 ## Usage
 
-Add the `extends` array to your ESLint config file (e.g. `.eslintrc.js) and reference this package.
+Add the `extends` array to your ESLint config file (e.g. `.eslintrc.js`) and reference this package.
 
 ```
 extends: [
