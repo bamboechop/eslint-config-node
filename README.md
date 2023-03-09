@@ -14,6 +14,6 @@ Add the `extends` array to your ESLint config file (e.g. `.eslintrc.js`) and ref
 
 ```
 extends: [
-  `@ringana/eslint-config-nest`,
+  `@bamboechop/eslint-config-nestjs`,
 ]
 ```
