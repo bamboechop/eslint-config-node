@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     `@typescript-eslint/eslint-plugin`,
     `import-quotes`,
+    `jira-ticket-todo-comment`,
   ],
   root: true,
   rules: {
@@ -96,6 +97,7 @@ module.exports = {
     'import/no-unresolved': `off`,
     'import/prefer-default-export': `off`,
     'import-quotes/import-quotes': [1, `single`],
+    'jira-ticket-todo-comment/jira-ticket-todo-comment': `error`,
     'keyword-spacing': [`error`, {
       after: true,
       before: true,
